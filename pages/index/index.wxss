@@ -1,0 +1,175 @@
+.container {
+  width:100%;
+  padding:11px 16px;
+}
+.title {
+  width:100%;
+  text-align:center;
+  font-size:16px;
+  color:#666666;
+}
+.cut {
+  width:21px;
+  height:1px;
+  margin:0 auto;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  border-top:1px solid #2ECC71;
+}
+.float-item {
+  float:left;
+}
+.clear {
+  clear:both;
+}
+.course .content {
+  width:343px;
+  height:auto;
+  margin:0 auto;
+  padding:0 16px;
+}
+.course .content view {
+  margin-bottom:7px;
+}
+.course .content .float-item:last-child {
+  margin-left:15px;
+}
+.course .content .image {
+  width:164px;
+  height:100px;
+}
+.course .content .item {
+  width:164px;
+  height:100px;
+  margin-top:-110px;
+  text-align:center;
+  line-height:100px;
+  font-size:16px;
+  color:white;
+}
+.teacher .content .float-item {
+  width:108px;
+  height:172px;
+  margin-right:8px;
+}
+.teacher .content .float-item:last-child {
+  margin-right:0;
+}
+.teacher .content .n1 {
+  background:rgba(250,205,138,0.16);
+}
+.teacher .content .n2 {
+  background:rgba(246,246,246,0.7);
+}
+.teacher .content .n3 {
+  background:rgba(230,170,116,0.25);
+}
+.teacher .content .head {
+  width:44px;
+  height:44px;
+  margin:32px;
+}
+.teacher .content .image {
+  width:24px;
+  height:32px;
+  margin:0 40px;
+}
+.teacher .more {
+  margin:24px auto;
+  text-align:center;
+  color:#2DC86F;
+  font-size:14px;
+}
+.type {
+  width:235px;
+  height:44px;
+  padding:0 65px;
+}
+.type view {
+  float:left;
+  height:32px;
+  margin-right:20px;
+  padding:0 16px;
+  text-align:center;
+  line-height:32px;
+  color:#999999;
+  font-size:14px;
+}
+.type view:last-child {
+  margin-right:0;
+}
+.type .sel {
+  background:#2ECC71;
+  border-radius:20px;
+  color:white;
+}
+.detail {
+  width:343px;
+  padding:0 16px;
+  background:#F9F9F9;
+}
+.detail .card {
+  width:343px;
+  height:184px;
+  padding:6px 0;
+}
+.detail .card image {
+  width:343px;
+  height:184px;
+}
+.detail .card .info {
+  width:303px;
+  height:89px;
+  margin-top:-184px;
+  padding:0 20px;
+  color:white;
+  font-size:12px;
+}
+.detail .card .gym {
+  padding-top:95px;
+}
+.detail .card .course {
+  padding-top:70px;
+}
+.detail .card .coach {
+  padding-top:20px;
+}
+.detail .card .info .name {
+  font-size:24px;
+}
+.detail .card .info .honor {
+  margin-bottom:78px;
+}
+.detail .card .info .pbg {
+  width:72px;
+  height:24px;
+  margin-top:-22px;
+  line-height:24px;
+}
+.detail .card .info .pbg image {
+  width:72px;
+  height:24px;
+  margin-top:0;
+  margin-left:0;
+}
+.detail .card .info .pbg view {
+  margin-top:-32px;
+  margin-left:10px;
+}
+.detail .card .info .teacher {
+  margin-bottom:16px;
+}
+.detail .card .info image {
+  width:14px;
+  height:18px;
+}
+.detail .card .info .distance {
+  margin-top:-20px;
+  margin-left:22px;
+}
+.detail .card .course image {
+  margin-left:103px;
+}
+.detail .card .course .distance {
+  margin-left:123px;
+}

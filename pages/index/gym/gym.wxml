@@ -1,0 +1,62 @@
+<view class="container">
+  <view class="name">
+    <view>王德明</view>
+    <view class="distance">700m</view>
+  </view>
+  <view class="clear"></view>
+  <view class="line"></view>
+  <view class="img">
+    <image src="../../../images/home/gym/img.png"></image>
+  </view>
+  <view class="info">
+    <view class="title item">联系方式</view>
+    <view class="item">
+      <view>大良环市北路382号德宝大厦五楼</view>
+      <image src="../../../images/home/icon_location.png" class="location"></image>
+    </view>
+    <view class="item">
+      <view>13432324567</view>
+      <image src="../../../images/home/gym/phone.png" class="phone"></image>
+    </view>
+  </view>
+  <view class="type">
+    <view class="sel">成员分布</view>
+    <view>教练资源</view>
+    <view>热门课程</view>
+  </view>
+  <view class="detail">
+    <view class="list">
+      <view class="circle">
+        <view class="c1">
+          <view class="c2"></view>
+          <view class="c3"></view>
+        </view>
+        <view class="percent">80%</view>
+      </view>
+      <view class="title">90后</view>
+    </view>
+    <view class="list">
+      <view class="circle">
+        <view class="c1">
+          <view class="c2"></view>
+          <view class="c3"></view>
+        </view>
+        <view class="percent">80%</view>
+      </view>
+      <view class="title">90后</view>
+    </view>
+    <view class="list">
+      <view class="circle">
+        <view class="c1">
+          <view class="c2"></view>
+          <view class="c3"></view>
+        </view>
+        <view class="percent">80%</view>
+      </view>
+      <view class="title">90后</view>
+    </view>
+  </view>
+  <view class="img2">
+    <image src="../../../images/home/gym/img_bg1.png"></image>
+  </view>
+</view>

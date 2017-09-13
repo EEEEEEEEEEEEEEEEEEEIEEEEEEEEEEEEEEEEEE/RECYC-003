@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/gym/gym",
+    "pages/index/coach/coach",
+    "pages/index/course/course",
+    "pages/course/course",
+    "pages/course-personal/course-personal",
+    "pages/course-team/course-team",
+    "pages/news/news",
+    "pages/news-detail/news-detail",
+    "pages/user/user",
+    "pages/user-edit/user-edit",
+    "pages/user-info/user-info",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "backgroundColor":"#FFFFFF",
+    "color":"#999999",
+    "selectedColor":"#2ECC71",
+    "borderStyle":"#27AE60",
+    "list": [{
+      "selectedIconPath": "images/tabBar/icon_home_sel.png",
+      "iconPath": "images/tabBar/icon_home_def.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "selectedIconPath": "images/tabBar/icon_schedule_sel.png",
+      "iconPath": "images/tabBar/icon_schedule_def.png",
+      "pagePath": "pages/course/course",
+      "text": "课程"
+    },
+    {
+      "selectedIconPath": "images/tabBar/icon_news_sel.png",
+      "iconPath": "images/tabBar/icon_news_def.png",
+      "pagePath": "pages/news/news",
+      "text": "资讯"
+    },
+    {
+      "selectedIconPath": "images/tabBar/icon_me_sel.png",
+      "iconPath": "images/tabBar/icon_me_def.png",
+      "pagePath": "pages/user/user",
+      "text": "个人"
+    }]
+  }
+}

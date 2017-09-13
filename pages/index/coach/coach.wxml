@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="name">
+    <view>王德明</view>
+    <view class="distance">700m</view>
+  </view>
+  <view class="clear"></view>
+  <view class="line"></view>
+  <view class="img">
+    <image src="../../../images/home/coach/img.png"></image>
+  </view>
+  <view class="info">
+    <view class="title item">职业信息</view>
+    <view class="item">
+      <view>私人教练</view>
+      <image src="../../../images/home/coach/icon_contact.png" class="contact"></image>
+    </view>
+    <view class="item">
+      <view>归属尼维亚健身中心</view>
+      <image src="../../../images/home/icon_location.png" class="location"></image>
+    </view>
+    <view class="item">
+      <view>5年指教经验</view>
+    </view>
+  </view>
+  <view class="about">
+    <view class="title">关于我</view>
+    <view>这位教练很懒哦~什么也没有写</view>
+  </view>
+</view>

@@ -1,0 +1,56 @@
+<view>
+  <view class="date">
+    <view class="item">
+      <view class="title">2016.11.23</view>
+      <view class="line"></view>
+      <view>日期</view>
+    </view>
+    <view class="item">
+      <view class="title">16:00--17:00</view>
+      <view class="line"></view>
+      <view>时间</view>
+    </view>
+  </view>
+  <view class="img">
+    <image src="../../../images/home/course/img.png"></image>
+  </view>
+  <view class="info">
+    <view class="item name">
+      <view class="title">
+        零基础适应性课程
+      </view>
+      <view>点击进入课程页面</view>
+      <image src="../../../images/home/course/icon_arrow.png" class="arrow"></image>
+    </view>
+    <view class="item">
+      <view>教练：王德明</view>
+      <image src="../../../images/home/course/icon_arrow.png" class="arrow"></image>
+    </view>
+    <view class="item">
+      <view>归属尼维亚健身中心</view>
+      <image src="../../../images/home/course/icon_arrow.png" class="arrow"></image>
+    </view>
+    <view class="item">
+      <view>大良环市北路382号德宝大厦五楼</view>
+      <image src="../../../images/home/icon_location.png" class="location"></image>
+    </view>
+    <view class="item">
+      <view>￥2600</view>
+    </view>
+  </view>
+  <view class="ticket">
+    <view class="pbg">
+      <image src="../../../images/home/course/ticket.png"></image>
+    </view>
+    <view class="info">
+      <view class="sub text">
+        <view>次剩余</view>
+        <view class="name">零基础适应性训练</view>
+      </view>
+      <view class="sub time">15</view>
+      <view class="clear"></view>
+      <view class="sub limited">有效期</view>
+      <view class="sub">2016.11.01~2016.11.3</view>
+    </view>
+  </view>
+</view>

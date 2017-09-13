@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="card">
+    <view class="item head">
+      <view class="title">更换头像</view>
+      <image src="../../images/user/head.png"></image>
+    </view>
+    <view class="item">
+      <view class="title">昵称</view>
+      <image src="../../images/user/icon_arrow.png"></image>
+      <view>王腾</view>
+    </view>
+  </view>
+  <view class="card">
+    <view class="item">
+      <view class="title">真实姓名</view>
+      <view>王腾</view>
+    </view>
+    <view class="item">
+      <view class="title">性别</view>
+      <view>男</view>
+    </view>
+    <view class="item">
+      <view class="title">号码</view>
+      <view>13337490243</view>
+    </view>
+  </view>
+</view>

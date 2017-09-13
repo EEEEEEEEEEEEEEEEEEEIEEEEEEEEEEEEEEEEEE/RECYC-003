@@ -1,0 +1,31 @@
+.container {
+  padding:0;
+  background:#F9F9F9;
+}
+.title {
+  width:343px;
+  padding:16px;
+  color:#666666;
+  font-size:12px;
+}
+.card {
+  width:375px;
+  height:auto;
+  background:white;
+}
+.card .item {
+  width:343px;
+  height:50px;
+  padding:0 16px;
+  line-height:50px;
+}
+.card .item view {
+  float:left;
+  width:76px;
+  color:#999999;
+  font-size:14px;
+}
+.card .item view:last-child {
+  width:auto;
+  color:#000000;
+}

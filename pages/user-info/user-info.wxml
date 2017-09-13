@@ -1,0 +1,107 @@
+<view class="container">
+  <view class="title">基本信息</view>
+  <view class="card">
+    <view class="item">
+      <view>性别</view>
+      <view>男</view>
+    </view>
+    <view class="item">
+      <view>年龄</view>
+      <view>23岁</view>
+    </view>
+    <view class="item">
+      <view>身高</view>
+      <view>180cm</view>
+    </view>
+    <view class="item">
+      <view>测量时间</view>
+      <view>16:00PM</view>
+    </view>
+    <view class="item">
+      <view>测量日期</view>
+      <view>2016年11月17日</view>
+    </view>
+    <view class="item">
+      <view>体型判定</view>
+      <view>肥胖型</view>
+    </view>
+  </view>
+  <view class="title">身体成分</view>
+  <view class="card">
+    <view class="item">
+      <view>体重</view>
+      <view>75kg</view>
+    </view>
+    <view class="item">
+      <view>去脂体重</view>
+      <view>61.7kg</view>
+    </view>
+    <view class="item">
+      <view>体脂肪量</view>
+      <view>20.4kg</view>
+    </view>
+    <view class="item">
+      <view>肌肉量</view>
+      <view>57.3kg</view>
+    </view>
+    <view class="item">
+      <view>骨质量</view>
+      <view>3.88kg</view>
+    </view>
+    <view class="item">
+      <view>蛋白质</view>
+      <view>12.7kg</view>
+    </view>
+    <view class="item">
+      <view>身体水分</view>
+      <view>45.1kg</view>
+    </view>
+  </view>
+  <view class="title">肌肉脂肪控制</view>
+  <view class="card">
+    <view class="item">
+      <view>体脂百分比</view>
+      <view>24.8%</view>
+    </view>
+    <view class="item">
+      <view>体质指数</view>
+      <view>23.4BMI</view>
+    </view>
+    <view class="item">
+      <view>腰臀比</view>
+      <view>0.90</view>
+    </view>
+    <view class="item">
+      <view>内脏脂肪</view>
+      <view>10.0VFI</view>
+    </view>
+    <view class="item">
+      <view>标准体重</view>
+      <view>80.5kg</view>
+    </view>
+    <view class="item">
+      <view>控制体重</view>
+      <view>-1.5kg</view>
+    </view>
+    <view class="item">
+      <view>基础代谢</view>
+      <view>2044cal</view>
+    </view>
+    <view class="item">
+      <view>健康评分</view>
+      <view>66.5</view>
+    </view>
+    <view class="item">
+      <view>控制脂肪</view>
+      <view>-8.2kg</view>
+    </view>
+    <view class="item">
+      <view>控制肌肉</view>
+      <view>+6.5kg</view>
+    </view>
+    <view class="item">
+      <view>生理年龄</view>
+      <view>25岁</view>
+    </view>
+  </view>
+</view>

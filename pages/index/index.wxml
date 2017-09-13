@@ -1,0 +1,98 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="course">
+    <view class="title">课程</view>
+    <view class="cut"></view>
+    <view class="content">
+      <view>
+        <view class="float-item">
+          <image src="../../images/home/pic1.png" class="image"></image>
+          <view class="item">瘦身</view>
+        </view>
+        <view class="float-item">
+          <image src="../../images/home/pic2.png" class="image"></image>
+          <view class="item">增肌</view>
+        </view>
+      </view>
+      <view>
+        <view class="float-item">
+          <image src="../../images/home/pic3.png" class="image"></image>
+          <view class="item">塑性</view>
+        </view>
+        <view class="float-item">
+          <image src="../../images/home/pic4.png" class="image"></image>
+          <view class="item">更多</view>
+        </view>
+      </view>
+      <view class="clear"></view>
+    </view>
+  </view>
+  <view class="teacher">
+    <view class="title">教练排行榜</view>
+    <view class="cut"></view>
+    <view class="content">
+      <view class="float-item n1">
+        <image src="../../images/home/h1.png" class="head"></image>
+        <image src="../../images/home/n1.png" class="image"></image>
+      </view>
+      <view class="float-item n2">
+        <image src="../../images/home/h2.png" class="head"></image>
+        <image src="../../images/home/n2.png" class="image"></image>
+      </view>
+      <view class="float-item n3">
+        <image src="../../images/home/h3.png" class="head"></image>
+        <image src="../../images/home/n3.png" class="image"></image>
+      </view>
+    </view>
+    <view class="clear"></view>
+    <view class="more">查看更多</view>
+  </view>
+  <view class="recommend">
+    <view class="title">推荐</view>
+    <view class="cut"></view>
+  </view>
+  <view class="type">
+    <view class="sel">健身房</view>
+    <view>课程</view>
+    <view>教练</view>
+  </view>
+  <view class="detail">
+    <view class="card">
+      <navigator url="gym/gym" hover-class="none">  
+        <image src="../../images/home/card_gym.png"></image>
+      </navigator>
+      <view class="info gym">
+        <view class="name">健身房名字</view>
+        <view class="location">地址</view>
+        <image src="../../images/home/icon_location.png"></image>
+        <view class="distance">距离</view>
+      </view>
+    </view>
+    <view class="card">
+      <navigator url="course/course" hover-class="none">
+        <image src="../../images/home/card_course.png"></image>
+      </navigator>
+      <view class="info course">
+        <view class="name">课程名字</view>
+        <view class="teacher">教练</view>
+        <image src="../../images/home/icon_location.png"></image>
+        <view class="distance">距离</view>
+        <view class="pbg">
+          <image src="../../images/home/pbg.png"></image>
+          <view>￥380 起</view>
+        </view>
+      </view>
+    </view>
+    <view class="card">
+      <navigator url="coach/coach" hover-class="none">
+        <image src="../../images/home/card_coach.png"></image>
+      </navigator>
+      <view class="info coach">
+        <view class="name">姓名</view>
+        <view class="honor">荣誉</view>
+        <image src="../../images/home/icon_location.png"></image>
+        <view class="distance">距离</view>
+      </view>
+    </view>
+  </view>
+</view>

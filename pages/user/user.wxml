@@ -1,0 +1,59 @@
+<view class="container">
+  <view class="pbg">
+    <image src="../../images/user/pbg.png"></image>
+  </view>
+  <view class="card">
+    <view class="head">
+      <image src="../../images/user/head.png"></image>
+    </view>
+    <view class="line"></view>
+    <view class="clear"></view>
+    <view class="name">王腾</view>
+    <navigator url="/pages/user-edit/user-edit">
+      <view class="edit">
+        编辑资料
+      </view>
+    </navigator>
+  </view>
+  <view class="info">
+    <view class="line"></view>
+    <navigator url="../user-info/user-info" hover-class='none'>
+      <view class="item">
+        <view class="icon">
+          <image src="../../images/user/icon_bodytest.png"></image>
+        </view>
+        <view>体征</view>
+        <view class="arrow">
+          <image src="../../images/user/icon_arrow.png"></image>
+        </view>
+      </view>
+    </navigator>
+    <view class="item">
+      <view class="icon">
+        <image src="../../images/user/icon_course.png"></image>
+      </view>
+      <view>课程</view>
+      <view class="arrow">
+        <image src="../../images/user/icon_arrow.png"></image>
+      </view>
+    </view>
+    <view class="item">
+      <view class="icon">
+        <image src="../../images/user/icon_collcet_cell.png"></image>
+      </view>
+      <view>收藏</view>
+      <view class="arrow">
+        <image src="../../images/user/icon_arrow.png"></image>
+      </view>
+    </view>
+    <view class="item">
+      <view class="icon">
+        <image src="../../images/user/icon_setting.png"></image>
+      </view>
+      <view>设置</view>
+      <view class="arrow">
+        <image src="../../images/user/icon_arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>

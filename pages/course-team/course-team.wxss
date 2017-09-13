@@ -1,0 +1,137 @@
+.clear {
+  clear:both;
+}
+.img {
+  width:343px;
+  padding:0 16px;
+}
+.img image {
+  width:343px;
+  height:236px;
+}
+.img view {
+  margin:5px 0;
+  margin-left:144px;
+  text-align: center;
+}
+.img .item {
+  float:left;
+  width:8px;
+  height:8px;
+  margin-left:0;
+  margin-right:16px;
+  border-radius:50%;
+  background:#D8D8D8;
+}
+.img .item:last-child {
+  margin-right:16px;
+}
+.img .sel {
+  background:#2ECC71;
+}
+.info {
+  width:359px;
+  margin-top:10px;
+  padding-left:16px;
+}
+.info .name {
+  width:359px;
+  height:33px;
+  color:#333333;
+  font-size:24px;
+}
+.info .name view {
+  float:left;
+}
+.info .name .type {
+  float:right;
+  width:56px;
+  height:23px;
+  margin:5px 0;
+  margin-right:16px;
+}
+.info .price {
+  margin:20px 0;
+  color:#F47171;
+  font-size:17px;
+}
+.info .item {
+  width:359px;
+  height:44px;
+  border-top:0.5px solid #E5E5E5;
+  line-height:44px;
+  color:#666666;
+  font-size:14px;
+}
+.info .item:last-child {
+  border-bottom:0.5px solid #E5E5E5;
+}
+.info .item view {
+  float:left;
+}
+.info .item .limited {
+  float:right;
+  margin-right:15px;
+  color:#999999;
+}
+.info .item .arrow {
+  float:right;
+  width:8px;
+  height:13px;
+  margin:15px;
+  margin-left:0;
+}
+.more {
+  width:197px;
+  height:44px;
+  margin-top:32px;
+  padding:0 89px;
+  text-align:center;
+  color:#999999;
+  font-size:14px;
+}
+.more view {
+  float:left;
+  width:87px;
+  height:32px;
+  margin:6px 0;
+  border-radius:20px;
+  line-height:32px;
+}
+.more view:last-child {
+  margin-left:16px;
+}
+.more .sel {
+  background:#2ECC71;
+  color:white;
+}
+.content {
+  width:343px;
+  height:160px;
+  padding:36px 16px;
+  background:#F9F9F9;
+  color:#666666;
+  font-size:14px;
+}
+.btn {
+  position:fixed;
+  bottom:0;
+  width:375px;
+  height:49px;
+  text-align:center;
+  line-height:49px;
+  color:white;
+  font-size:14px;
+}
+.btn .contact {
+  float:left;
+  width:120px;
+  height:49px;
+  background:#333333;
+}
+.btn .buy {
+  float:left;
+  width:255px;
+  height:49px;
+  background:#2ECC71;
+}

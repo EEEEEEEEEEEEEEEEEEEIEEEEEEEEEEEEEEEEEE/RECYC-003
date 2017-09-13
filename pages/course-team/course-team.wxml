@@ -1,0 +1,53 @@
+<view>
+  <view class="img">
+    <image src="../../images/course/img3.png"></image>
+    <view>
+      <view class="item sel"></view>
+      <view class="item"></view>
+      <view class="item"></view>
+    </view>
+  </view>
+  <view class="clear"></view>
+  <view class="info">
+    <view class="name">
+      <view>零基础适应性课程</view>
+      <image src="../../images/course/team.png" class="type"></image>
+    </view>
+    <view class="clear"></view>
+    <view class="price">￥ 280</view>
+    <view class="item">
+      <view>次数：1</view>
+      <image src="../../images/course/icon_arrow.png" class="arrow"></image>
+      <view class="limited">有效期：3天</view>
+    </view>
+    <view class="item">
+      <view>时间：19:00-20:00</view>
+    </view>
+    <view class="item">
+      <view>报名人数：10/18人</view>
+      <view class="limited">还剩8个名额</view>
+    </view>
+    <view class="item">
+      <view>时长：1小时</view>
+    </view>
+    <view class="item">
+      <view>归属尼维亚健身中心</view>
+      <image src="../../images/course/icon_arrow.png" class="arrow"></image>
+    </view>
+    <view class="item">
+      <view>教练：王德明</view>
+      <image src="../../images/course/icon_arrow.png" class="arrow"></image>
+    </view>
+  </view>
+  <view class="more">
+    <view class="sel">课程详情</view>
+    <view>相似课程</view>
+  </view>
+  <view class="content">
+    <view>1.	本次课程属于私教课</view>
+  </view>
+  <view class="btn">
+    <view class="contact">咨询教练</view>
+    <view class="buy">立即购买</view>
+  </view>
+</view>

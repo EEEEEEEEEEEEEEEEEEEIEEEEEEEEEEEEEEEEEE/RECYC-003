@@ -1,0 +1,45 @@
+<view>
+  <view class="type">
+    <view class="sel">减脂</view>
+    <view>增肌</view>
+    <view>塑性</view>
+    <view>瑜伽</view>
+    <view>搏击</view>
+  </view>
+  <view class="container">
+    <view class="card">
+      <navigator url="../course-personal/course-personal" hover-class="none">
+        <image src="../../images/course/card.png" class="image"></image>
+      </navigator>
+    </view>
+    <view class="info">
+      <view class="name">课程名字</view>
+      <view class="teacher">教练</view>
+      <view class="pbg">
+        <image src="../../images/course/pbg.png"></image>
+        <view>￥380 起</view>
+      </view>
+      <view class="location">
+        <image src="../../images/course/icon_location.png"></image>
+        <view>5km</view>
+      </view>
+    </view>
+    <view class="card">
+      <navigator url="../course-team/course-team" hover-class="none">
+        <image src="../../images/course/card.png" class="image"></image>
+      </navigator>
+    </view>
+    <view class="info">
+      <view class="name">课程名字</view>
+      <view class="teacher">教练</view>
+      <view class="pbg">
+        <image src="../../images/course/pbg.png"></image>
+        <view>￥380 起</view>
+      </view>
+      <view class="location">
+        <image src="../../images/course/icon_location.png"></image>
+        <view>5km</view>
+      </view>
+    </view>
+  </view>
+</view>

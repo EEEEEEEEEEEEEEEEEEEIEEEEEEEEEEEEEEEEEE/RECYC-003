@@ -1,0 +1,22 @@
+<view>
+  <view class="img">
+    <image src="../../images/news/img.png"></image>
+  </view>
+  <view class="title">
+    <view class="line"></view>
+    <view>十年健身教练</view>
+    <view>教你一步步打造自己的减脂食谱</view>
+  </view>
+  <view class="content">
+    <view class="date">2016.11.23</view>
+    <view>
+      本文写给没有烹饪条件的食堂党。总体来说食堂党因为没法烹饪，会使健身减脂的饮食操作难度增加。本文根据食堂党的条件给出一些建议，如果你有更好的方法也请告知船长。
+    </view>
+    <view>
+    作者：船长
+链接：https://www.zhihu.com/question/31356260/answer/89985410
+来源：知乎
+著作权归作者所有，转载请联系作者获得授权。
+    </view>
+  </view>
+</view>

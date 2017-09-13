@@ -1,0 +1,128 @@
+.clear {
+  clear:both;
+}
+.date {
+  width:303px;
+  height:94px;
+  padding:0 36px;
+  padding-top:54px;
+}
+.date .item {
+  float:left;
+}
+.date .item:last-child {
+  margin-left:40px;
+}
+.date .item view {
+  margin-top:8px;
+  color:#999999;
+  font-size:12px;
+}
+.date .item .title {
+  margin-top:0;
+  color:#333333;
+  font-size:24px;
+}
+.date .item .line {
+  width:24px;
+  height:1px;
+  border-top:1px solid #2ECC71;
+}
+.img {
+  width:375px;
+  height:100px;
+}
+.img image {
+  width:375px;
+  height:100px;
+}
+.info {
+  width:375px;
+  padding-left:16px;
+}
+.info .item {
+  width:359px;
+  height:44px;
+  border-bottom:0.5px solid #E5E5E5;
+  line-height:44px;
+  color:#666666;
+  font-size:14px;
+}
+.info .name {
+  width:359px;
+  height:95px;
+  padding:15px 0;
+}
+.info .item view {
+  height:20px;
+}
+.info .item .title {
+  height:24px;
+  color:#333333;
+  font-size:17px;
+}
+.info .item .arrow {
+  float:right;
+  width:8px;
+  height:13px;
+  margin-right:14px;
+}
+.info .item .arrow image {
+  width:8px;
+  height:13px;
+}
+.info .item .location {
+  float:right;
+  width:14px;
+  height:18px;
+  margin-top:-7px;
+  margin-right:16px;
+}
+.info .item .location image {
+  width:14px;
+  height:18px;
+}
+.ticket {
+  width:375px;
+  height:216px;
+  margin:44px 0;
+}
+.ticket .pbg {
+  width:375px;
+  height:216px;
+}
+.ticket .pbg image {
+  width:375px;
+  height:216px;
+}
+.ticket .info {
+  width:295px;
+  height:150px;
+  margin-top:-190px;
+  padding:0 40px;
+  padding-top:34px;
+}
+.ticket .info .sub {
+  float:left;
+  color:#333333;
+  font-size:12px;
+}
+.ticket .info .time {
+  width:49px;
+  height:48px;
+  margin-top:-60px;
+  margin-bottom:70px;
+  color:#2ECC71;
+  font-size:48px;
+}
+.ticket .info .text {
+  margin-left:65px;
+}
+.ticket .info .name {
+  height:0;
+  color:#999999;
+}
+.ticket .info .limited {
+  margin-right:12px;
+  color:#999999;
+}

@@ -1,0 +1,87 @@
+.container {
+  padding:8px 16px;
+}
+.clear {
+  clear:both;
+}
+.pbg {
+  width:371px;
+  height:250px;
+}
+.pbg image {
+  width:371px;
+  height:250px;
+}
+.card {
+  position:absolute;
+  top:25px;
+  width:279px;
+  height:148px;
+  padding:32px;
+  background:white;
+}
+.card .head {
+  float:left;
+  width:80px;
+  height:80px;
+}
+.card .head image {
+  width:80px;
+  height:80px;
+}
+.card .line {
+  float:right;
+  width:32px;
+  height:3px;
+  border-top:3px solid #333333;
+}
+.card .name {
+  float:left;
+  margin-top:35px;
+  font-size:24px;
+}
+.card .edit {
+  float:right;
+  margin-top:48px;
+  border-bottom:1px solid #999999;
+  color:#999999;
+  font-size:12px;
+}
+.info {
+  width:268px;
+  height:229px;
+  margin-top:52px;
+}
+.info .line {
+  width:28px;
+  height:1px;
+  border-top:1px solid #999999;
+}
+.info .item {
+  with:268px;
+  height:28px;
+  margin-top:27px;
+  font-size:17px;
+}
+.info .item view {
+  float:left;
+}
+.info .item .icon {
+  width:25px;
+  height:25px;
+  margin-right:22px;
+}
+.info .item .icon image {
+  width:25px;
+  height:25px;
+}
+.info .item .arrow {
+  float:right;
+  width:8px;
+  height:16px;
+  margin-top:6px;
+}
+.info .item .arrow image {
+  width:8px;
+  height:16px;
+}
