@@ -1,21 +1,21 @@
 <view class="container">
-  <view class="card">
-    <navigator url="../news-detail/news-detail" hover-class='none'>
-      <image src="../../images/news/card1.png" class="image"></image>
+  <view class="card" wx:for="{{news}}">
+    <navigator url="../news-detail/news-detail?id={{item.id}}" hover-class='none'>
+      <image src="{{item.news_title_img}}" class="image"></image>
     </navigator>
     <view class="info">
       <view class="line">
         <image src="../../images/news/line.png"></image>
       </view>
-      <view class="date">2016.11.23</view>
-      <view class="title1">十年健身教练</view>
-      <view class="title2">教你一步步打造自己的减脂食谱</view>
+      <view class="date">{{item.news_time}}</view>
+      <view class="title1">{{item.news_title}}</view>
+      <view class="title2">{{item.news_subtitle}}</view>
       <view class="pbg">
         <image src="../../images/news/pbg.png"></image>
       </view>
       <view class="praise">
         <image src="../../images/news/praise.png"></image>
-        <view>3000</view>
+        <view>{{item.news_like}}</view>
       </view>
     </view>
   </view>

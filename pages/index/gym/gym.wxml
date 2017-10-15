@@ -1,21 +1,21 @@
 <view class="container">
   <view class="name">
-    <view>王德明</view>
+    <view>{{company.company_name}}</view>
     <view class="distance">700m</view>
   </view>
   <view class="clear"></view>
   <view class="line"></view>
   <view class="img">
-    <image src="../../../images/home/gym/img.png"></image>
+    <image src="../../../images/home/card_gym.png"></image>
   </view>
   <view class="info">
     <view class="title item">联系方式</view>
     <view class="item">
-      <view>大良环市北路382号德宝大厦五楼</view>
+      <view>{{company.company_place}}</view>
       <image src="../../../images/home/icon_location.png" class="location"></image>
     </view>
     <view class="item">
-      <view>13432324567</view>
+      <view>{{company.company_connect}}</view>
       <image src="../../../images/home/gym/phone.png" class="phone"></image>
     </view>
   </view>

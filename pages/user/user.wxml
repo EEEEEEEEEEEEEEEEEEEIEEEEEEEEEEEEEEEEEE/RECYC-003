@@ -4,11 +4,11 @@
   </view>
   <view class="card">
     <view class="head">
-      <image src="../../images/user/head.png"></image>
+      <image src="{{user.user_face}}"></image>
     </view>
     <view class="line"></view>
     <view class="clear"></view>
-    <view class="name">王腾</view>
+    <view class="name">{{user.user_name}}</view>
     <navigator url="/pages/user-edit/user-edit">
       <view class="edit">
         编辑资料

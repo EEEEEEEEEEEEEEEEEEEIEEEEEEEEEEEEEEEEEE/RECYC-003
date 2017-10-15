@@ -1,0 +1,57 @@
+.container {
+  width:100%;
+  padding:11px 16px;
+}
+.card {
+  width:343px;
+  height:184px;
+  padding:6px 0;
+}
+.card image {
+  width:343px;
+  height:184px;
+}
+.card .info {
+  width:303px;
+  height:89px;
+  margin-top:-184px;
+  padding:0 20px;
+  color:white;
+  font-size:12px;
+}
+.card .coach {
+  padding-top:20px;
+}
+.card .info .name {
+  font-size:24px;
+}
+.card .info .honor {
+  margin-bottom:78px;
+}
+.card .info .pbg {
+  width:72px;
+  height:24px;
+  margin-top:-22px;
+  line-height:24px;
+}
+.card .info .pbg image {
+  width:72px;
+  height:24px;
+  margin-top:0;
+  margin-left:0;
+}
+.card .info .pbg view {
+  margin-top:-32px;
+  margin-left:10px;
+}
+.card .info .teacher {
+  margin-bottom:16px;
+}
+.card .info image {
+  width:14px;
+  height:18px;
+}
+.card .info .distance {
+  margin-top:-20px;
+  margin-left:22px;
+}

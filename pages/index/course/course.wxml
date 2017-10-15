@@ -1,12 +1,12 @@
 <view>
   <view class="date">
     <view class="item">
-      <view class="title">2016.11.23</view>
+      <view class="title">{{dating.dating_date}}</view>
       <view class="line"></view>
       <view>日期</view>
     </view>
     <view class="item">
-      <view class="title">16:00--17:00</view>
+      <view class="title">{{dating.dating_time}}</view>
       <view class="line"></view>
       <view>时间</view>
     </view>
@@ -17,17 +17,17 @@
   <view class="info">
     <view class="item name">
       <view class="title">
-        零基础适应性课程
+        {{course.course_name}}
       </view>
       <view>点击进入课程页面</view>
       <image src="../../../images/home/course/icon_arrow.png" class="arrow"></image>
     </view>
     <view class="item">
-      <view>教练：王德明</view>
+      <view>教练：{{course.coach_name}}</view>
       <image src="../../../images/home/course/icon_arrow.png" class="arrow"></image>
     </view>
     <view class="item">
-      <view>归属尼维亚健身中心</view>
+      <view>归属{{dating.dating_place}}</view>
       <image src="../../../images/home/course/icon_arrow.png" class="arrow"></image>
     </view>
     <view class="item">
@@ -35,7 +35,7 @@
       <image src="../../../images/home/icon_location.png" class="location"></image>
     </view>
     <view class="item">
-      <view>￥2600</view>
+      <view>￥{{course.course_price}}</view>
     </view>
   </view>
   <view class="ticket">

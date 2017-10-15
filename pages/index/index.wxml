@@ -5,23 +5,9 @@
     <view class="cut"></view>
     <view class="content">
       <view>
-        <view class="float-item">
-          <image src="../../images/home/pic1.png" class="image"></image>
-          <view class="item">瘦身</view>
-        </view>
-        <view class="float-item">
-          <image src="../../images/home/pic2.png" class="image"></image>
-          <view class="item">增肌</view>
-        </view>
-      </view>
-      <view>
-        <view class="float-item">
-          <image src="../../images/home/pic3.png" class="image"></image>
-          <view class="item">塑性</view>
-        </view>
-        <view class="float-item">
-          <image src="../../images/home/pic4.png" class="image"></image>
-          <view class="item">更多</view>
+        <view class="float-item" bindtap="goType" id="{{item.type}}" wx:for="{{types}}">
+          <image src="{{item.img}}" class="image"></image>
+          <view class="item">{{item.name}}</view>
         </view>
       </view>
       <view class="clear"></view>
@@ -32,66 +18,80 @@
     <view class="cut"></view>
     <view class="content">
       <view class="float-item n1">
-        <image src="../../images/home/h1.png" class="head"></image>
-        <image src="../../images/home/n1.png" class="image"></image>
+        <navigator url="coach/coach?coachId={{coachsRanking[0].coachId}}" hover-class="none">
+          <image src="{{coachsRanking[0].coach_head}}" class="head"></image>
+          <image src="../../images/home/n1.png" class="image"></image>
+        </navigator>
       </view>
       <view class="float-item n2">
-        <image src="../../images/home/h2.png" class="head"></image>
-        <image src="../../images/home/n2.png" class="image"></image>
+        <navigator url="coach/coach?coachId={{coachsRanking[1].coachId}}" hover-class="none">
+          <image src="{{coachsRanking[1].coach_head}}" class="head"></image>
+          <image src="../../images/home/n2.png" class="image"></image>
+        </navigator>
       </view>
       <view class="float-item n3">
-        <image src="../../images/home/h3.png" class="head"></image>
-        <image src="../../images/home/n3.png" class="image"></image>
+        <navigator url="coach/coach?coachId={{coachsRanking[2].coachId}}" hover-class="none">
+          <image src="{{coachsRanking[2].coach_head}}" class="head"></image>
+          <image src="../../images/home/n3.png" class="image"></image>
+        </navigator>
       </view>
     </view>
     <view class="clear"></view>
-    <view class="more">查看更多</view>
+    <view class="more">
+      <navigator url="../coach/coach" hover-class="none">
+        查看更多
+      </navigator>    
+    </view>
   </view>
   <view class="recommend">
     <view class="title">推荐</view>
     <view class="cut"></view>
   </view>
   <view class="type">
-    <view class="sel">健身房</view>
-    <view>课程</view>
-    <view>教练</view>
+    <view class="{{item.sel}}" bindtap="indexType" id="{{index}}" wx:for="{{indexTypes}}">{{item.name}}</view>
   </view>
   <view class="detail">
-    <view class="card">
-      <navigator url="gym/gym" hover-class="none">  
-        <image src="../../images/home/card_gym.png"></image>
-      </navigator>
-      <view class="info gym">
-        <view class="name">健身房名字</view>
-        <view class="location">地址</view>
-        <image src="../../images/home/icon_location.png"></image>
-        <view class="distance">距离</view>
-      </view>
-    </view>
-    <view class="card">
-      <navigator url="course/course" hover-class="none">
-        <image src="../../images/home/card_course.png"></image>
-      </navigator>
-      <view class="info course">
-        <view class="name">课程名字</view>
-        <view class="teacher">教练</view>
-        <image src="../../images/home/icon_location.png"></image>
-        <view class="distance">距离</view>
-        <view class="pbg">
-          <image src="../../images/home/pbg.png"></image>
-          <view>￥380 起</view>
+    <view id="{{indexTypes[0].type}}" style="display:{{indexTypes[0].display}}">
+      <view class="card" wx:for="{{companies}}" id="{{index}}">
+        <navigator url="gym/gym?id={{item.id}}" hover-class="none">  
+          <image src="{{item.company_picture}}"></image>
+        </navigator>
+        <view class="info gym">
+          <view class="name">{{item.company_name}}</view>
+          <view class="location">{{item.company_place}}</view>
+          <image src="../../images/home/icon_location.png"></image>
+          <view class="distance">距离</view>
         </view>
       </view>
     </view>
-    <view class="card">
-      <navigator url="coach/coach" hover-class="none">
-        <image src="../../images/home/card_coach.png"></image>
-      </navigator>
-      <view class="info coach">
-        <view class="name">姓名</view>
-        <view class="honor">荣誉</view>
-        <image src="../../images/home/icon_location.png"></image>
-        <view class="distance">距离</view>
+    <view id="{{indexTypes[1].type}}" style="display:{{indexTypes[1].display}}">
+      <view class="card" wx:for="{{courses}}" id="{{index}}">
+        <navigator url="course/course?course_id={{item.course_id}}" hover-class="none">
+          <image src="{{item.course_title_img}}"></image>
+        </navigator>
+        <view class="info course">
+          <view class="name">{{item.course_name}}</view>
+          <view class="teacher">{{item.coach_name}}</view>
+          <image src="../../images/home/icon_location.png"></image>
+          <view class="distance">距离</view>
+          <view class="pbg">
+            <image src="../../images/home/pbg.png"></image>
+            <view>￥{{item.course_price}} 起</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view id="{{indexTypes[2].type}}" style="display:{{indexTypes[2].display}}">
+      <view class="card" wx:for="{{coachs}}" id="{{index}}">
+        <navigator url="coach/coach?coachId={{item.coachId}}" hover-class="none">
+          <image src="{{item.coach_card_picture}}"></image>
+        </navigator>
+        <view class="info coach">
+          <view class="name">{{item.coach_name}}</view>
+          <view class="honor">荣誉</view>
+          <image src="../../images/home/icon_location.png"></image>
+          <view class="distance">距离</view>
+        </view>
       </view>
     </view>
   </view>

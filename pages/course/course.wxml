@@ -1,40 +1,19 @@
 <view>
   <view class="type">
-    <view class="sel">减脂</view>
-    <view>增肌</view>
-    <view>塑性</view>
-    <view>瑜伽</view>
-    <view>搏击</view>
+    <view class="{{item.sel}}" bindtap="type" id="{{index}}" wx:for="{{types}}">{{item.name}}</view>
   </view>
-  <view class="container">
+  <view class="container" wx:for="{{courses}}">
     <view class="card">
-      <navigator url="../course-personal/course-personal" hover-class="none">
-        <image src="../../images/course/card.png" class="image"></image>
+      <navigator url="../course-personal/course-personal?course_id={{item.course_id}}" hover-class="none">
+        <image src="{{item.course_title_img}}" class="image"></image>
       </navigator>
     </view>
     <view class="info">
-      <view class="name">课程名字</view>
-      <view class="teacher">教练</view>
+      <view class="name">{{item.course_name}}</view>
+      <view class="teacher">{{item.coach_name}}</view>
       <view class="pbg">
         <image src="../../images/course/pbg.png"></image>
-        <view>￥380 起</view>
-      </view>
-      <view class="location">
-        <image src="../../images/course/icon_location.png"></image>
-        <view>5km</view>
-      </view>
-    </view>
-    <view class="card">
-      <navigator url="../course-team/course-team" hover-class="none">
-        <image src="../../images/course/card.png" class="image"></image>
-      </navigator>
-    </view>
-    <view class="info">
-      <view class="name">课程名字</view>
-      <view class="teacher">教练</view>
-      <view class="pbg">
-        <image src="../../images/course/pbg.png"></image>
-        <view>￥380 起</view>
+        <view>￥{{item.course_price}} 起</view>
       </view>
       <view class="location">
         <image src="../../images/course/icon_location.png"></image>

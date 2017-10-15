@@ -1,30 +1,34 @@
+//index.js
 //获取应用实例
 const app = getApp()
 
 Page({
   data: {
-    news: {}
+    coachs: []
   },
   onLoad: function (options) {
     var that = this
+    that.data.coachs = []
     wx.request({
-      url: "http://localhost:9002/v1/news/id",
+      url: "http://localhost:9002/v1/coachs",
       data: {
         uid: '3',
         timestamp: '1505966206074',
-        token: '8047159d09a8e7268ae03989b25b5413',
-        id: options.id
+        token: '8047159d09a8e7268ae03989b25b5413'
       },
       header: {
         'content-type': 'application/json'
       },
       success: function (res) {
-        console.log(res.data.news)
+        console.log(res)
         that.setData({
-          news: res.data.news
+          coachs: res.data.coachs
         })
-        console.log(that.data.news)
+        console.log(that.data.coachs)
       }
     })
-  }
+  },
+  onShow: function(options) {
+  
+  }  
 })

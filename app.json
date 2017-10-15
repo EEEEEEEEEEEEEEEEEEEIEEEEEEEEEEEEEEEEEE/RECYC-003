@@ -12,6 +12,7 @@
     "pages/user/user",
     "pages/user-edit/user-edit",
     "pages/user-info/user-info",
+    "pages/coach/coach",
     "pages/logs/logs"
   ],
   "window": {

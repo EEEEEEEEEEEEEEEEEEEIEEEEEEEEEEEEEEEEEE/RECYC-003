@@ -4,6 +4,12 @@ const app = getApp()
 
 Page({
   data: {
-    
+    user: {}
+  },
+  onLoad: function(options) {
+    this.setData({
+      user: getApp().data.user
+    })
+    console.log(this.data.user)
   }
 })
